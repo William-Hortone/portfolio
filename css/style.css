@@ -23,8 +23,8 @@ li{
     list-style-type: none;
 }
 .cursor{
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 15rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -41,8 +41,8 @@ li{
     /* opacity: 0; */
 }
 .cursor2{
-    width: 13rem;
-    height: 13rem;
+    width: 15rem;
+    height: 15rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -96,8 +96,8 @@ li{
 }
 
 .cursor3_hover, .cursor5_hover{
-    width: 13.5rem;
-    height: 13.5rem;
+    width: 15.5rem;
+    height: 15.5rem;
     background-color: #ffffff;
     z-index: 30;
     color: #fff;
@@ -107,14 +107,14 @@ li{
 }
 
 .cursor3_down{
-    width: 15rem;
-    height: 15rem;
+    width: 17rem;
+    height: 17rem;
     transition: all 1s ease;
 }
 
 .cursor_hover, .cursor5_hover{
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     background-color: #ffffff;
     z-index: 30;
     color: #fff;
@@ -124,8 +124,8 @@ li{
 }
 
 .cursor_down{
-    width: 14rem;
-    height: 14rem;
+    width: 17rem;
+    height: 17rem;
     transition: all 1s ease;
 }
 .cursor p{
@@ -1339,7 +1339,7 @@ li{
     scrollbar-width: none;
 }
 
-::-webkit-scrollbar{
+.project_horizontal_container::-webkit-scrollbar{
     display: none;
 }
 
