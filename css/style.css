@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Akshar:wght@300;400;500;600;700&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap'); */
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +15,6 @@ body{
 :root{
     font-size: 8px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Akshar:wght@300;400;500;600;700&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap');
 
 a{
     text-decoration: none;
@@ -38,7 +38,7 @@ li{
     transition-property: background, transform;
     transform-origin:100% 100% ;
     display: none;
-    /* opacity: 0; */
+   
 }
 .cursor2{
     width: 15rem;
@@ -173,7 +173,7 @@ li{
     height: 100%;
 }
 .logo_name a{
-    /* font-size: 1.8vw; */
+    
     font-size: 2.8rem;
     font-weight: bold;
     color: #000;
@@ -540,7 +540,7 @@ li{
 }
 .project_box{
     width: 100%;
-    height: 110vh;
+    height: 80vh;
     display: flex;
     margin-bottom: 10rem;
 }
@@ -555,7 +555,7 @@ li{
 .project_title1{
     display: inline;
     position: relative;
-    font-size: 7.5vw;
+    font-size: 5.5vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -564,7 +564,7 @@ li{
 .project_title2{
     display: inline;
     position: relative;
-    font-size: 7.5vw;
+    font-size: 5.5vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -597,7 +597,7 @@ li{
 }
 .project_box_image{
     width: 48%;
-    height: 110vh;
+    height: 80vh;
     margin-left: 12%;
     background-color: rgb(9, 51, 37);
     position: relative;
@@ -628,7 +628,7 @@ li{
 }
 .project_box_image img{
    width: 100%;
-   height: 110vh;
+   height: 80vh;
    object-fit: cover;
 }
 .project1{
