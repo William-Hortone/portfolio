@@ -13,7 +13,7 @@ body{
     overflow-x: hidden;
 }
 :root{
-    font-size: 8px;
+    font-size: 7.5px;
 }
 
 a{
@@ -1357,7 +1357,7 @@ li{
     font-size: 4rem;
     color: #ffffff;
     background-size: cover;
-    background-position:center center ;
+    /* background-position:center center ; */
 }
 
 .box1{
@@ -1405,18 +1405,18 @@ li{
 /* ------images of linkedin clone project---- */
 
 .box2_3{
-    background-image: url('./images/eden1_cr.png');
+    background-image: url('./images/1.png');
 }
 .box3_3{ 
     margin-inline: 4vw;
-    background-image: url('./images/eden2.png');
+    background-image: url('./images/yanga.png');
 }
 .box4_3{
     margin-right: 4vw;
-    background-image: url('./images/eden3.png');
+    background-image: url('./images/yanga2.png');
 }
 .box5_3{
-    background-image: url('./images/eden4.png');
+    background-image: url('./images/yanga.png');
 }
 
 .responsive_container_images{
@@ -1451,17 +1451,17 @@ li{
 
 /* ----responsive images for eden fashion project---- */
 .img1_3{
-    background-image: url('./images/eden1_cr.png');
+    background-image: url('./images/1.png');
 }
 .img2_3{
-    background-image: url('./images/eden2.png');
+    background-image: url('./images/yanga.png');
 }
 .img3_3{
-    background-image: url('./images/eden3.png');
+    background-image: url('./images/yanga2.png');
 }
 
 .img4_3{
-    background-image: url('./images/eden4.png');
+    background-image: url('./images/yanga.png');
 }
 
 
