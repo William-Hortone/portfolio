@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 :root{
-    font-size: 6.5px;
+    font-size: 7.5px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Akshar:wght@300;400;500;600;700&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap');
 
@@ -528,7 +528,7 @@ li{
 }
 .project_box{
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     margin-bottom: 10rem;
 }
@@ -543,7 +543,7 @@ li{
 .project_title1{
     display: inline;
     position: relative;
-    font-size: 7.5vw;
+    font-size: 6vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -552,7 +552,7 @@ li{
 .project_title2{
     display: inline;
     position: relative;
-    font-size: 7.5vw;
+    font-size: 6vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -585,12 +585,12 @@ li{
 }
 .project_box_image{
     width: 48%;
-    height: 110vh;
+    height: 100vh;
     margin-left: 12%;
-    background-color: rgb(9, 51, 37);
+    /* background-color: rgb(9, 51, 37); */
     position: relative;
-    background-size: cover;
-    background-position: center center;
+    /* background-size: cover;
+    background-position: center center; */
     transition: all .5s ease;
 }
 .project_box_image:hover{
@@ -604,7 +604,7 @@ li{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     justify-content: center;
     align-items: center;
     font-size: 2rem;
@@ -616,7 +616,7 @@ li{
 }
 .project_box_image img{
    width: 100%;
-   height: 110vh;
+   height: 100%;
    object-fit: cover;
 }
 .project1{
@@ -1633,7 +1633,7 @@ li{
     .project_box_image{
         height: 75vh;
     }
-    .project_box_image  img{
+    .project_box_image img{
         height: 75vh;
     }
     .project_box_text{
@@ -1727,7 +1727,7 @@ li{
     .project_box_image{
         height: 60vh;
     }
-    .project_box_image  img{
+    .project_box_image img{
         height: 60vh;
     }
     #email_click{
@@ -1843,7 +1843,7 @@ li{
     .project_box_image{
         height: 50vh;
     }
-    .project_box_image  img{
+    .img{
         height: 50vh;
     }
 }
