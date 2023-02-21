@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Aclonica', sans-serif;
-   
 }
- /* will-change: auto; */
 html{
     scroll-behavior: smooth;
 }
@@ -14,8 +12,9 @@ body{
     overflow-x: hidden;
 }
 :root{
-    font-size: 7.5px;
+    font-size: 6.5px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Akshar:wght@300;400;500;600;700&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap');
 
 a{
     text-decoration: none;
@@ -93,9 +92,7 @@ li{
     transition-property: background, transform;
     transform-origin:100% 100% ;
     display: none;
-    /* opacity: 0; */
 }
-
 .cursor3_hover, .cursor5_hover{
     width: 15.5rem;
     height: 15.5rem;
@@ -106,13 +103,11 @@ li{
     cursor: no-drop;
     opacity: 1;
 }
-
 .cursor3_down{
     width: 17rem;
     height: 17rem;
     transition: all 1s ease;
 }
-
 .cursor_hover, .cursor5_hover{
     width: 15rem;
     height: 15rem;
@@ -123,7 +118,6 @@ li{
     cursor: no-drop;
     opacity: 1;
 }
-
 .cursor_down{
     width: 17rem;
     height: 17rem;
@@ -151,7 +145,7 @@ li{
     position: fixed;
     top: 35px;
     z-index: 1000;
-    /* background-color: aquamarine; */
+  
 }
 .navbar{
     width: 95%;
@@ -174,7 +168,6 @@ li{
     height: 100%;
 }
 .logo_name a{
-    
     font-size: 2.8rem;
     font-weight: bold;
     color: #000;
@@ -222,7 +215,11 @@ li{
 .close_navbar_container{
     color: #ffffff;
 }
-
+.project-image-demo{
+    background-image: url(./images/responsive7.png);
+    background-size: cover;
+    background-position: center center;
+}
 @media screen and (max-width:1200px) {
     .navbar_open-container{
         width: 100vw;
@@ -352,7 +349,6 @@ li{
 .home_image_container{
     width: 35%;
     height: 300px;
-    /* background-color:red ; */
     display:flex;
     position: relative;
     overflow: hidden;
@@ -366,35 +362,27 @@ li{
     top:0;
     left: 0;
     display: flex;
-    /* background-color: rebeccapurple; */
     z-index: 22;
 }
-
 .home_image1{
     width: 35vw;
     height: 100%;
     background-color: #8C8F95;
-    /* background: url('./images/my_image2-removebg-preview.png') center center;
-    background-size: cover; */
 }
 .home_image1_img{
     width: 100%;
     height: 100%;
-    /* background-color: aqua; */
     background: url('./images/my_image2-removebg-preview.png') center center;
     background-size: cover;
 }
-
 .home_image2{
     width: 35vw;
     height: 100%;
     background-color: #8C8F95;
-
 }
 .home_image2_img{
     width: 100%;
     height: 100%;
-    /* background-color: aqua; */
     background: url('./images/image3-removebg-preview.png') center center;
     background-size: cover;
 }
@@ -424,7 +412,6 @@ li{
     align-self: flex-end;
 }
 .name_box{
-    /* width: 50%; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -459,7 +446,7 @@ li{
     margin-bottom: 5rem;
 }
 .home_description_box1 p{
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
 }
@@ -541,7 +528,7 @@ li{
 }
 .project_box{
     width: 100%;
-    height: 80vh;
+    height: 110vh;
     display: flex;
     margin-bottom: 10rem;
 }
@@ -556,7 +543,7 @@ li{
 .project_title1{
     display: inline;
     position: relative;
-    font-size: 5.5vw;
+    font-size: 7.5vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -565,7 +552,7 @@ li{
 .project_title2{
     display: inline;
     position: relative;
-    font-size: 5.5vw;
+    font-size: 7.5vw;
     color: #000;
     font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
@@ -598,7 +585,7 @@ li{
 }
 .project_box_image{
     width: 48%;
-    height: 80vh;
+    height: 110vh;
     margin-left: 12%;
     background-color: rgb(9, 51, 37);
     position: relative;
@@ -629,7 +616,7 @@ li{
 }
 .project_box_image img{
    width: 100%;
-   height: 80vh;
+   height: 110vh;
    object-fit: cover;
 }
 .project1{
@@ -1358,7 +1345,7 @@ li{
     font-size: 4rem;
     color: #ffffff;
     background-size: cover;
-    /* background-position:center center ; */
+    background-position:center center ;
 }
 
 .box1{
@@ -1371,54 +1358,55 @@ li{
 /* ------images of ona batiment project---- */
 .box2_1{
  
-    background-image: url('./images/ona1.png');
+    background-image: url('./images/1.png');
 }
 .box3_1{
     margin-inline: 4vw;
-    background-image: url('./images/ona6.png');
+    background-image: url('./images/2.png');
 }
 .box4_1{
 
     margin-right: 4vw;
-    background-image: url('./images/ona2.png');
+    background-image: url('./images/3.png');
 }
 .box5_1{
-    background-image: url('./images/ona4.png');
-}
-
-/* ------images of eden fashion project---- */
-
-.box2_2{
-    background-image: url('./images/linkedin1.png');
-}
-.box3_2{
-    margin-inline: 4vw;
-    background-image: url('./images/linhkdein2.png');
-}
-.box4_2{
-    margin-right: 4vw;
-    background-image: url('./images/linkedin3.png');
-}
-.box5_2{
-    background-image: url('./images/link4.png');
+    background-image: url('./images/5.png');
 }
 
 /* ------images of linkedin clone project---- */
 
+.box2_2{
+    background-image: url('./images/14.png');
+}
+.box3_2{
+    margin-inline: 4vw;
+    background-image: url('./images/15.png');
+}
+.box4_2{
+    margin-right: 4vw;
+    background-image: url('./images/16.png');
+}
+.box5_2{
+    background-image: url('./images/17.png');
+}
+
+/* ------images of eden fashion project---- */
+
 .box2_3{
-    background-image: url('./images/1.png');
+    background-image: url('./images/6.png');
 }
 .box3_3{ 
     margin-inline: 4vw;
-    background-image: url('./images/yanga.png');
+    background-image: url('./images/7.png');
 }
 .box4_3{
     margin-right: 4vw;
-    background-image: url('./images/yanga2.png');
+    background-image: url('./images/8.png');
 }
 .box5_3{
-    background-image: url('./images/yanga.png');
+    background-image: url('./images/10.png');
 }
+
 
 .responsive_container_images{
     width: 95%;
@@ -1437,49 +1425,49 @@ li{
 
 /* ----responsive images for ona batiment project---- */
 .img1_1{
-    background-image: url('./images/ona1.png');
+    background-image: url('./images/1.png');
 }
 .img2_1{
-    background-image: url('./images/ona6.png');
+    background-image: url('./images/2.png');
 }
 .img3_1{
-    background-image: url('./images/ona2.png');
+    background-image: url('./images/3.png');
 }
 
 .img4_1{
-    background-image: url('./images/ona4.png');
+    background-image: url('./images/5.png');
 }
 
 /* ----responsive images for eden fashion project---- */
 .img1_3{
-    background-image: url('./images/1.png');
+    background-image: url('./images/6.png');
 }
 .img2_3{
-    background-image: url('./images/yanga.png');
+    background-image: url('./images/7.png');
 }
 .img3_3{
-    background-image: url('./images/yanga2.png');
+    background-image: url('./images/8.png');
 }
 
 .img4_3{
-    background-image: url('./images/yanga.png');
+    background-image: url('./images/10.png');
 }
 
 
 /* ----responsive images for linkedin clone project---- */
 
 .img1_2{
-    background-image: url('./images/linkedin1.png');
+    background-image: url('./images/14.png');
 }
 .img2_2{
-    background-image: url('./images/linhkdein2.png');
+    background-image: url('./images/15.png');
 }
 .img3_2{
-    background-image: url('./images/linkedin3.png');
+    background-image: url('./images/16.png');
 }
 
 .img4_2{
-    background-image: url('./images/link4.png');
+    background-image: url('./images/17.png');
 }
 
 
@@ -1493,9 +1481,7 @@ li{
     }
 }
 @media screen and (max-width:1460px){
-    /* :root{
-        font-size: 8px;
-    } */
+  
     .more_about_me p{
         font-size: 2vw;
     }
@@ -1504,10 +1490,10 @@ li{
     }
 }
  @media screen and (max-width:1300px){
-    :root{
+    /* :root{
         font-size: 8px;
     }
-  
+   */
     
     .cursor3_hover{
         width: 18.5rem;
@@ -1555,9 +1541,9 @@ li{
     }
 } 
 @media screen and (max-width:1200px){
-    :root{
+    /* :root{
         font-size: 8px;
-    }
+    } */
     .navbar_links,
     .home_text_intro h2{
         display: none;
@@ -1754,9 +1740,9 @@ li{
     }
 }
 @media screen and (max-width:770px){
-    :root{
+    /* :root{
         font-size: 7px;
-    }  
+    }   */
      .projects_container{
         margin-top: 0rem;
     }
@@ -2098,14 +2084,12 @@ li{
     .project_title_description_box{
         padding-right: 10%;
     }
-    
 }
 @media screen and (max-width:740px){
 
     .contact_first_container{
         padding-top: 0rem;
     }
-    
 }
 @media screen and (max-width:540px){
     .project_title_description_box{
