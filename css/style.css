@@ -1,10 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Akshar:wght@300;400;500;600;700&family=Allerta+Stencil&family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Hind:wght@300&family=Lora:ital,wght@0,500;1,400;1,500;1,600;1,700&family=Neonderthaw&family=Old+Standard+TT:ital,wght@0,700;1,400&family=Playfair+Display:ital,wght@0,500;1,400;1,500&family=Sora:wght@300;500;700&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap'); */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Aclonica', sans-serif;
+   
 }
+ /* will-change: auto; */
 html{
     scroll-behavior: smooth;
 }
